@@ -1,0 +1,36 @@
+.wrap{
+    max-width:1920px;
+    margin: 0 auto;
+}
+
+header, section, footer{
+    width:100%;
+    float: left;
+    /* background-color: lightgray; */
+}
+
+.in_header, .container{
+    max-width: 1600px;
+    width:100%;
+    /* background-color: gray; */
+    margin: 0 auto;
+}
+/* 
+.container{
+    padding-top: 200px;
+} */
+
+@media screen and (max-width:500px) {
+    .in_header, .container{
+        width:95%;
+    }
+}
+
+h1{
+    color: #121212;
+}
+
+h6{
+    color: #121212;
+}
+
